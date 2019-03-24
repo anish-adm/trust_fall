@@ -1,5 +1,5 @@
 name: trust_fall
-description: A Flutter plugin for detecting the trust fall of the device.
+description: A Flutter plugin for detecting the trust fall of the device(jailbroken, rooted, emulator and mock location detection).
 version: 0.0.1
 author: Anish Madhu (anish.adm.madhu@gmail.com)
 homepage:
