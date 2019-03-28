@@ -7,7 +7,13 @@ Inspired by [jail-monkey](https://github.com/GantMan/jail-monkey) and [this blog
 
 ## Getting Started
 
-Add `trust_fall` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+In your flutter project add the dependency:
+
+```yml
+dependencies:
+  ...
+  trust_fall: ^1.0.0
+```
 
 ## Usage
 #### Importing package
