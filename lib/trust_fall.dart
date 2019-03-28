@@ -7,11 +7,6 @@ class TrustFall {
   static const MethodChannel _channel =
       const MethodChannel('trust_fall');
 
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
-  }
-
   //Checks whether device JailBroken on iOS/Android?
   static Future<bool> get isJailBroken async {
     final bool isJailBroken = await _channel.invokeMethod('isJailBroken');

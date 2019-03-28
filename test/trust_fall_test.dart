@@ -7,7 +7,7 @@ void main() {
 
   setUp(() {
     channel.setMockMethodCallHandler((MethodCall methodCall) async {
-      return '42';
+      return false;
     });
   });
 
@@ -16,6 +16,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await TrustFall.platformVersion, '42');
+    expect(await TrustFall.isTrustFall, false);
   });
 }
