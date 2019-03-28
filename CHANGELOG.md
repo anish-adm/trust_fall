@@ -1,3 +1,7 @@
+## 1.0.1
+* Removed default platformVersion functionality
+* Made changes in to test file
+
 ## 1.0.0
 * Added comments
 * Changed README.md
