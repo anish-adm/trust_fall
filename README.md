@@ -14,6 +14,11 @@ dependencies:
   ...
   trust_fall: ^1.0.1
 ```
+For AndroidX use the following version:
+  ...
+  trust_fall: ^2.0.0
+```
+
 
 ## Usage
 #### Importing package

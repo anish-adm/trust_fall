@@ -1,3 +1,6 @@
+## 2.0.0
+* Migrate to AndroidX
+
 ## 1.0.1
 * Removed default platformVersion functionality
 * Made changes in to test file
