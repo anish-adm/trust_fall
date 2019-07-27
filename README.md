@@ -12,11 +12,7 @@ In your flutter project add the dependency:
 ```yml
 dependencies:
   ...
-  trust_fall: ^1.0.1
-```
-For AndroidX use the following version:
-  ...
-  trust_fall: ^2.0.0
+  trust_fall: ^1.0.2
 ```
 
 

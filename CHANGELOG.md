@@ -1,5 +1,7 @@
-## 2.0.0
-* Migrate to AndroidX
+## 1.0.2
+* Added AndroidX support
+* Fixed mock location issue
+* More accurate mock location detection
 
 ## 1.0.1
 * Removed default platformVersion functionality
