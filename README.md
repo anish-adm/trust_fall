@@ -45,4 +45,6 @@ bool isTrustFall = await TrustFall.isTrustFall;
 ```
 
 # Note:
+#### Location Permission
+Location permission needs to be granted in app in order to detect mock location properly
 ## ❗Since emulators are usually rooted, you might want to bypass these checks during development. Unless you're keen on constant false alarms ⏰
