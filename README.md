@@ -27,13 +27,13 @@ Checks whether device JailBroken on iOS/Android?
 ```
 bool isJailBroken = await TrustFall.isJailBroken;
 ```
-Can this device mock location - no need to root!
-```
-bool canMockLocation = await TrustFall.canMockLocation;
-```
 Checks whether device is real or emulator
 ```
 bool isRealDevice = await TrustFall.isRealDevice;
+```
+Can this device mock location - no need to root!
+```
+bool canMockLocation = await TrustFall.canMockLocation;
 ```
 (ANDROID ONLY) Check if application is running on external storage
 ```
