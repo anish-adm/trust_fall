@@ -12,7 +12,7 @@ In your flutter project add the dependency:
 ```yml
 dependencies:
   ...
-  trust_fall: ^1.0.2
+  trust_fall: ^1.0.4
 ```
 
 
@@ -46,5 +46,7 @@ bool isTrustFall = await TrustFall.isTrustFall;
 
 # Note:
 #### Location Permission
-Location permission needs to be granted in app in order to detect mock location properly
+* **Android** - Location permission needs to be granted in app in order to detect mock location properly
+* **iOS** - For now we are checking if device is Jail Broken or if it's not real device. There is no strong detection of mock location in iOS *(Open the PR if you have better way for mock location detection in iOS)*
+
 ## ❗Since emulators are usually rooted, you might want to bypass these checks during development. Unless you're keen on constant false alarms ⏰
