@@ -45,7 +45,7 @@ bool isTrustFall = await TrustFall.isTrustFall;
 ```
 
 # Note:
-#### Location Permission
+#### Mock location detection
 * **Android** - Location permission needs to be granted in app in order to detect mock location properly
 * **iOS** - For now we are checking if device is Jail Broken or if it's not real device. There is no strong detection of mock location in iOS *(Open the PR if you have better way for mock location detection in iOS)*
 
