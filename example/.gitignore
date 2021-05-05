@@ -3,6 +3,7 @@
 *.log
 *.pyc
 *.swp
+.flutter-plugins-dependencies
 .DS_Store
 .atom/
 .buildlog/
